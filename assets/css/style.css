@@ -1,0 +1,43 @@
+table
+{
+  table-layout:fixed;;
+  border-collapse: collapse;
+  width: 80%;
+  border: 1px solid black;
+  margin:auto;
+}
+caption
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+th, tr, td
+{
+  border: 1px solid black;
+}
+
+thead th:nth-child(1)
+{
+  width: 16%;
+}
+thead th:nth-child(2)
+{
+  width: 16%;
+}
+thead th:nth-child(3)
+{
+  width: 16%;
+
+}
+thead th:nth-child(4)
+{
+  width: 16%;
+}
+thead th:nth-child(5)
+{
+  width: 16%;
+}
+tbody tr:nth-child(odd) /**old: colore les lignes impairs**/
+{
+  background-color: #EEEEEE;
+}
